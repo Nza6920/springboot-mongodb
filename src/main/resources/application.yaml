@@ -1,0 +1,14 @@
+server:
+  port: 7111
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/demodb
+
+logging:
+  config: classpath:logback-spring.xml
+  level:
+    root: info
+    com:
+      niu: debug
